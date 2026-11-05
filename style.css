@@ -1,0 +1,182 @@
+/* Basic page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #222;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #102b50;
+    color: white;
+    text-align: center;
+    padding: 28px 15px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-bottom: 0;
+}
+
+nav {
+    background-color: #e87522;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 14px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 90%;
+    max-width: 850px;
+    margin: 25px auto;
+}
+
+section {
+    background-color: white;
+    padding: 22px;
+    margin-bottom: 22px;
+    border-radius: 8px;
+    border: 1px solid #e1e5ea;
+}
+
+h2 {
+    color: #102b50;
+    margin-top: 0;
+}
+
+.intro {
+    text-align: center;
+    padding: 35px 22px;
+}
+
+.main-link {
+    display: inline-block;
+    background-color: #e87522;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bfc7d1;
+    border-radius: 5px;
+    font: inherit;
+}
+
+button {
+    background-color: #102b50;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 18px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4778;
+}
+
+.section-note {
+    color: #666;
+    margin-top: -8px;
+}
+
+.filters {
+    margin-bottom: 15px;
+}
+
+.filters select {
+    width: auto;
+    min-width: 150px;
+}
+
+.item-card {
+    border: 1px solid #d9dee5;
+    border-left: 5px solid #e87522;
+    border-radius: 5px;
+    padding: 14px;
+    margin-bottom: 12px;
+    background-color: #fafbfc;
+}
+
+.item-card h3 {
+    margin: 0 0 8px;
+    color: #102b50;
+}
+
+.item-card p {
+    margin: 4px 0;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #e8eef6;
+    color: #102b50;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: #102b50;
+    color: white;
+    padding: 12px;
+    margin-top: 30px;
+}
+
+#message {
+    font-weight: bold;
+    color: #176b36;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+
+    main {
+        width: 94%;
+    }
+
+    section {
+        padding: 16px;
+    }
+}
